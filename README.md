@@ -9,10 +9,20 @@ Usage
 Example usage:
 
 ```shell
-$ heroku create --stack cedar --buildpack https://github.com/nathanbrakken/heroku-buildpack-phantomjs2.1.1.git
+$ heroku create --stack cedar --buildpack https://github.com/Evanta/heroku-buildpack-phantomjs2.1.1
 
 # or if your app is already created:
-$ heroku buildpacks:add https://github.com/nathanbrakken/heroku-buildpack-phantomjs2.1.1
+$ heroku buildpacks:add https://github.com/Evanta/heroku-buildpack-phantomjs2.1.1
 
 $ git push heroku master
+```
+```
+Shrimp needs Phantomjs
+     _.--------,..
+   ;:____________ `--,_
+  (_.-(o)-,-,-.. `''--,_
+    ''-.__)_)_,'`\
+        /||//| )-;
+        ||\ |/
+        '' ' (/) ldb
 ```
